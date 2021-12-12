@@ -1,0 +1,41 @@
+{
+  "plugins": ["macros"],
+  "presets": [
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ],
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "bugfixes": true,
+        "corejs": 3
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["macros"],
+      "presets": [
+        [
+          "@babel/preset-react",
+          {
+            "development": true,
+            "runtime": "automatic"
+          }
+        ],
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "entry",
+            "bugfixes": true,
+            "corejs": 3
+          }
+        ]
+      ]
+    }
+  }
+}
