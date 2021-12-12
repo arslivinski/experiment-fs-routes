@@ -1,0 +1,22 @@
+{
+  "name": "@arslivinski/experiment-fs-routes",
+  "version": "1.0.0-alpha.0",
+  "description": "An experiment with file system routes",
+  "license": "ISC",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "author": {
+    "name": "Anderson Roberto Slivinski",
+    "url": "https://github.com/arslivinski"
+  },
+  "homepage": "https://github.com/arslivinski/experiment-fs-routes/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslivinski/experiment-fs-routes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arslivinski/experiment-fs-routes/issues"
+  }
+}
