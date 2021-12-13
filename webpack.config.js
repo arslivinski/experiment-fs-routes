@@ -54,7 +54,7 @@ module.exports = function webpackConfigFactory(env) {
               use: {
                 loader: 'babel-loader',
                 options: {
-                  cacheDirectory: true,
+                  cacheDirectory: false,
                   cacheCompression: false,
                   compact: isProduction,
                 },
@@ -110,6 +110,7 @@ module.exports = function webpackConfigFactory(env) {
       new HtmlPlugin({
         inject: true,
         template: path.resolve(__dirname, 'public', 'index.html'),
+        publicPath: '/',
         ...isProduction
           ? {
               minify: {

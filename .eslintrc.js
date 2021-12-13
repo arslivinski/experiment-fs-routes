@@ -22,6 +22,15 @@ module.exports = {
   overrides: [
     {
       files: [
+        './sources/pages/**/*.js',
+      ],
+      rules: {
+        'import/no-default-export': OFF,
+        'import/prefer-default-export': ERROR,
+      },
+    },
+    {
+      files: [
         './.*.js',
         './*.js',
         './scripts/**/*.js',

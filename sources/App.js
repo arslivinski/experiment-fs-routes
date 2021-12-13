@@ -1,5 +1,7 @@
+import { Router } from './routes.js';
+
 function App() {
-  return null;
+  return <Router />;
 }
 
 export { App };
